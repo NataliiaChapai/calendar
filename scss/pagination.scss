@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #fff;
+}
+
+.month {
+  font-weight: 700;
+}
+
+.btn {
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 30px;
+  height: 30px;
+  transition: all 1s ease-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: blue;
+}
+
+.prev,
+.last {
+  color: rgba(255, 255, 255, 0.5);
+}

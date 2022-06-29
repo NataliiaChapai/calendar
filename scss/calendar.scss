@@ -1,0 +1,48 @@
+.table {
+  padding: 10px;
+  color: #fff;
+}
+
+.week,
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 50px);
+  row-gap: 3px;
+  column-gap: 5px;
+}
+
+.week-day,
+.day {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  display: block;
+  align-items: center;
+  border-radius: 5px;
+  margin: 3px;
+  font-weight: 700;
+  line-height: 3;
+  transition: all 2s ease-out;
+  cursor: pointer;
+}
+
+.week-day {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.5);
+}
+
+.week-day:hover,
+.day:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.5);
+  color: blue;
+  font-weight: 700;
+}
+
+.current {
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: blue;
+  font-weight: 700;
+}
